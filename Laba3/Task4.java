@@ -6,22 +6,22 @@ public class Main
       System.out.println("Введите число:");
       int num = input.nextInt();
       input.close();
-      if (num=91 && num=100) {
+      if (num>=91 && num<=100) {
           System.out.println("A");
       }
-      else if (num=81 && num=90) {
+      else if (num=>81 && num<=90) {
           System.out.println("B");
       }
-      else if (num=71 && num=80) {
+      else if (num=>71 && num<=80) {
           System.out.println("C");
       }
-      else if (num=61 && num=70){
+      else if (num=>61 && num<=70){
           System.out.println("D");
       }
-      else if (num=51 && num=60){
+      else if (num=>51 && num<=60){
           System.out.println("E");
       }
-      else if (num=50){
+      else if (num<=50){
           System.out.println("F");
       }
       else System.out.println("Введите корректный бал от 1 до 100");
